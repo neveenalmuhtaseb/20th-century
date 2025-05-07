@@ -1,12 +1,73 @@
 ,source,target,value
-0,Alice,Caterpillar,18
-1,Alice,Duchess,24
-2,Alice,Hatter,26
-3,Dormouse,Hatter,17
-4,Duchess,Gryphon,5
-5,Alice,Gryphon,17
-6,Duck,Lory,6
-7,Alice,Lory,4
-8,Alice,Mouse,7
-9,Alice,Dodo,12
-10,Alice,Pat,11
+0,Austria,France,6
+1,Austria,Germany,14
+2,Germany,Italy,25
+3,Germany,Spain,2
+4,France,Poland,15
+5,France,Germany,23
+6,Germany,Poland,23
+7,Estonia,Germany,5
+8,Estonia,Latvia,6
+9,Latvia,Lithuania,6
+10,Finland,Lithuania,12
+11,Finland,Germany,11
+12,Netherlands,Poland,6
+13,Luxembourg,Netherlands,6
+14,Belgium,Luxembourg,4
+15,Belgium,Denmark,6
+16,Denmark,Norway,12
+17,Denmark,Sweden,6
+18,Germany,Sweden,6
+19,France,Italy,5
+20,Albania,Greece,12
+21,Greece,Ukraine,2
+22,Belarus,Ukraine,6
+23,Belarus,Libya,2
+24,Egypt,Libya,15
+25,Egypt,Iraq,5
+26,Germany,Japan,28
+27,Germany,Morocco,1
+28,Algeria,Morocco,6
+29,Algeria,Italy,5
+30,China,Japan,29
+31,Japan,Thailand,6
+32,Singapore,Thailand,6
+33,Hong Kong,Singapore,6
+34,Guam,Hong Kong,6
+35,Guam,Japan,16
+36,Japan,Philippines,11
+37,Japan,Solomon Islands,9
+38,India,Japan,12
+39,France,Japan,5
+40,China,France,6
+41,China,India,12
+42,India,Pakistan,13
+43,Israel,Pakistan,6
+44,Israel,South Africa,12
+45,Israel,Libya,6
+46,Germany,Libya,3
+47,India,Papua New Guinea,3
+48,Pakistan,Philippines,5
+49,Cambodia,Philippines,5
+50,Cambodia,Kenya,6
+51,Ghana,Kenya,6
+52,Ghana,Seychelles,5
+53,Estonia,Lithuania,6
+54,Finland,Romania,6
+55,Albania,Romania,5
+56,Albania,Bulgaria,6
+57,Bulgaria,Poland,6
+58,Poland,Romania,6
+59,Hungary,Romania,6
+60,Hungary,Mongolia,5
+61,China,Mongolia,6
+62,China,Cuba,6
+63,Cuba,United States,4
+64,Canada,United States,4
+65,Australia,Canada,6
+66,Cambodia,Cuba,4
+67,Rwanda,South Africa,5
+68,Germany,Norway,6
+69,Greece,Italy,3
+70,Italy,Japan,6
+71,India,Singapore,5
