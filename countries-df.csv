@@ -1,62 +1,326 @@
 ,Country,Mentions
-5,Germany,42
-27,Japan,33
-8,United States,23
-2,France,17
-7,Italy,14
-10,Poland,13
-30,China,10
-39,India,9
-35,Philippines,5
-19,Norway,5
-24,Libya,5
-3,Austria,5
-14,Finland,4
-43,Israel,4
-42,Pakistan,4
-21,Greece,4
-53,Romania,3
-13,Lithuania,3
-34,Guam,3
-4,Hungary,3
-18,Denmark,3
-36,Guinea,3
-56,Cuba,3
-37,Solomon Islands,2
-40,United Kingdom,2
-38,Australia,2
-32,Singapore,2
-44,South Africa,2
-46,Bangladesh,2
-33,Hong Kong,2
-11,Estonia,2
-22,Albania,2
-25,Egypt,2
-15,Belgium,2
-16,Netherlands,2
-57,Canada,2
-1,Congo,2
-47,Cambodia,2
-6,Ukraine,2
-12,Latvia,2
-49,Ghana,1
-55,Mongolia,1
-51,Angola,1
-59,Afghanistan,1
-58,Rwanda,1
-54,Bulgaria,1
-50,Seychelles,1
-52,Mozambique,1
-0,Panama,1
-48,Kenya,1
-45,Papua New Guinea,1
-41,Mexico,1
-31,Thailand,1
-29,Algeria,1
-28,Morocco,1
-26,Iraq,1
-23,Belarus,1
-20,Sweden,1
-17,Luxembourg,1
-9,Spain,1
+0,Germany,42
+1,Japan,33
+2,United States,23
+3,France,17
+4,Italy,14
+5,Poland,13
+6,China,10
+7,India,9
+8,Philippines,5
+9,Norway,5
+10,Libya,5
+11,Austria,5
+12,Finland,4
+13,Israel,4
+14,Pakistan,4
+15,Greece,4
+16,Romania,3
+17,Lithuania,3
+18,Guam,3
+19,Hungary,3
+20,Denmark,3
+21,Guinea,3
+22,Cuba,3
+23,Solomon Islands,2
+24,United Kingdom,2
+25,Australia,2
+26,Singapore,2
+27,South Africa,2
+28,Bangladesh,2
+29,Hong Kong,2
+30,Estonia,2
+31,Albania,2
+32,Egypt,2
+33,Belgium,2
+34,Netherlands,2
+35,Canada,2
+36,Congo,2
+37,Cambodia,2
+38,Ukraine,2
+39,Latvia,2
+40,Ghana,1
+41,Mongolia,1
+42,Angola,1
+43,Afghanistan,1
+44,Rwanda,1
+45,Bulgaria,1
+46,Seychelles,1
+47,Mozambique,1
+48,Panama,1
+49,Kenya,1
+50,Papua New Guinea,1
+51,Mexico,1
+52,Thailand,1
+53,Algeria,1
+54,Morocco,1
+55,Iraq,1
+56,Belarus,1
+57,Sweden,1
+58,Luxembourg,1
+59,Spain,1
 60,Lebanon,1
+61,Changsha,0
+62,Wannsee,0
+63,New York,0
+64,the Soviet Union,0
+65,Nazi Germany,0
+66,Egorov,0
+67,Colin,0
+68,Virginia,0
+69,North Korea,0
+70,Hawaii,0
+71,Potsdam,0
+72,Laos,0
+73,The Soviet State,0
+74,Oklahoma City,0
+75,Shanghai,0
+76,Ferreira,0
+77,Antonia,0
+78,Okinawa,0
+79,Great Britain,0
+80,Becky,0
+81,Carruthers,0
+82,Malaya,0
+83,New Mexico,0
+84,the Japanese Empire,0
+85,San Francisco.[172,0
+86,Clusterfuck,0
+87,Hall,0
+88,the Ottoman Empire,0
+89,Moscow,0
+90,Saint Petersburg,0
+91,Henderson,0
+92,Grant,0
+93,Stephen,0
+94,Fraser,0
+95,Britain,0
+96,THE SOVIET UNION,0
+97,Stalingrad,0
+98,Hiroshima,0
+99,Indochina,0
+100,Goldstein,0
+101,Guangxi,0
+102,Mobile,0
+103,the Solomon Islands,0
+104,America,0
+105,Warsaw,0
+106,Leningrad,0
+107,South Korea,0
+108,Burma,0
+109,Chongqing,0
+110,Pong,0
+111,Neville,0
+112,London,0
+113,the United Kingdom,0
+114,New states,0
+115,the Russian Empire,0
+116,Alfredo,0
+117,the British Empire,0
+118,U.S.,0
+119,Tsar,0
+120,Hongkiat,0
+121,Yugoslavia,0
+122,Stalin,0
+123,New Orleans,0
+124,Assensoh,0
+125,Rome,0
+126,the German Empire,0
+127,Munich,0
+128,Battle,0
+129,North Korea.[159],0
+130,West Germany,0
+131,British Burma,0
+132,Persia,0
+133,Manchuria,0
+134,"Hasic, Albinko",0
+135,Gemini,0
+136,Rebecca,0
+137,Wylie,0
+138,The United States,0
+139,North Korea's,0
+140,Sicily,0
+141,Bali,0
+142,Lean,0
+143,Blumberg,0
+144,British Empire,0
+145,Data,0
+146,Budapest,0
+147,Austria-Hungary,0
+148,Michaels,0
+149,North Africa,0
+150,Paris,0
+151,Wilde,0
+152,Czechoslovakia,0
+153,Brimelow,0
+154,Koreas,0
+155,Kaiser,0
+156,the Soviet Union's,0
+157,Omaha Beach,0
+158,Nanjing,0
+159,Saigon,0
+160,New Guinea,0
+161,Prague,0
+162,Bilski,0
+163,East Berlin,0
+164,Sarajevo,0
+165,Estrada,0
+166,Vienna,0
+167,Vietnam,0
+168,Bolsheviks,0
+169,Download,0
+170,Italian Social Republic,0
+171,Armistice,0
+172,Pearl Harbor,0
+173,Russia,0
+174,Kellaway,0
+175,the People's Republic of Bangladesh,0
+176,East Germany,0
+177,Sofia,0
+178,Guadalcanal,0
+179,the People's Republic of China.[229] Its,0
+180,The Soviet Union,0
+181,Catherwood,0
+182,West Nile,0
+183,Belgrade,0
+184,Yalta,0
+185,Stuka.[59,0
+186,The Netherlands,0
+187,Nagasaki,0
+188,Berlin,0
+189,Tobruk,0
+190,Los Alamos,0
+191,Tokyo,0
+192,the United States,0
+193,Changsha,0
+194,Wannsee,0
+195,New York,0
+196,the Soviet Union,0
+197,Nazi Germany,0
+198,Egorov,0
+199,Colin,0
+200,Virginia,0
+201,North Korea,0
+202,Hawaii,0
+203,Potsdam,0
+204,Laos,0
+205,The Soviet State,0
+206,Oklahoma City,0
+207,Shanghai,0
+208,Ferreira,0
+209,Antonia,0
+210,Okinawa,0
+211,Great Britain,0
+212,Becky,0
+213,Carruthers,0
+214,Malaya,0
+215,New Mexico,0
+216,the Japanese Empire,0
+217,San Francisco.[172,0
+218,Clusterfuck,0
+219,Hall,0
+220,the Ottoman Empire,0
+221,Moscow,0
+222,Saint Petersburg,0
+223,Henderson,0
+224,Grant,0
+225,Stephen,0
+226,Fraser,0
+227,Britain,0
+228,THE SOVIET UNION,0
+229,Stalingrad,0
+230,Hiroshima,0
+231,Indochina,0
+232,Goldstein,0
+233,Guangxi,0
+234,Mobile,0
+235,the Solomon Islands,0
+236,America,0
+237,Warsaw,0
+238,Leningrad,0
+239,South Korea,0
+240,Burma,0
+241,Chongqing,0
+242,Pong,0
+243,Neville,0
+244,London,0
+245,the United Kingdom,0
+246,New states,0
+247,the Russian Empire,0
+248,Alfredo,0
+249,the British Empire,0
+250,U.S.,0
+251,Tsar,0
+252,Hongkiat,0
+253,Yugoslavia,0
+254,Stalin,0
+255,New Orleans,0
+256,Assensoh,0
+257,Rome,0
+258,the German Empire,0
+259,Munich,0
+260,Battle,0
+261,North Korea.[159],0
+262,West Germany,0
+263,British Burma,0
+264,Persia,0
+265,Manchuria,0
+266,"Hasic, Albinko",0
+267,Gemini,0
+268,Rebecca,0
+269,Wylie,0
+270,The United States,0
+271,North Korea's,0
+272,Sicily,0
+273,Bali,0
+274,Lean,0
+275,Blumberg,0
+276,British Empire,0
+277,Data,0
+278,Budapest,0
+279,Austria-Hungary,0
+280,Michaels,0
+281,North Africa,0
+282,Paris,0
+283,Wilde,0
+284,Czechoslovakia,0
+285,Brimelow,0
+286,Koreas,0
+287,Kaiser,0
+288,the Soviet Union's,0
+289,Omaha Beach,0
+290,Nanjing,0
+291,Saigon,0
+292,New Guinea,0
+293,Prague,0
+294,Bilski,0
+295,East Berlin,0
+296,Sarajevo,0
+297,Estrada,0
+298,Vienna,0
+299,Vietnam,0
+300,Bolsheviks,0
+301,Download,0
+302,Italian Social Republic,0
+303,Armistice,0
+304,Pearl Harbor,0
+305,Russia,0
+306,Kellaway,0
+307,the People's Republic of Bangladesh,0
+308,East Germany,0
+309,Sofia,0
+310,Guadalcanal,0
+311,the People's Republic of China.[229] Its,0
+312,The Soviet Union,0
+313,Catherwood,0
+314,West Nile,0
+315,Belgrade,0
+316,Yalta,0
+317,Stuka.[59,0
+318,The Netherlands,0
+319,Nagasaki,0
+320,Berlin,0
+321,Tobruk,0
+322,Los Alamos,0
+323,Tokyo,0
+324,the United States,0

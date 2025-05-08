@@ -1,73 +1,295 @@
 ,source,target,value
-0,Austria,France,6
-1,Austria,Germany,14
-2,Germany,Italy,25
-3,Germany,Spain,2
-4,France,Poland,15
-5,France,Germany,23
-6,Germany,Poland,23
-7,Estonia,Germany,5
-8,Estonia,Latvia,6
-9,Latvia,Lithuania,6
-10,Finland,Lithuania,12
-11,Finland,Germany,11
-12,Netherlands,Poland,6
-13,Luxembourg,Netherlands,6
-14,Belgium,Luxembourg,4
-15,Belgium,Denmark,6
-16,Denmark,Norway,12
-17,Denmark,Sweden,6
-18,Germany,Sweden,6
-19,France,Italy,5
-20,Albania,Greece,12
-21,Greece,Ukraine,2
-22,Belarus,Ukraine,6
-23,Belarus,Libya,2
-24,Egypt,Libya,15
-25,Egypt,Iraq,5
-26,Germany,Japan,28
-27,Germany,Morocco,1
-28,Algeria,Morocco,6
-29,Algeria,Italy,5
-30,China,Japan,29
-31,Japan,Thailand,6
-32,Singapore,Thailand,6
-33,Hong Kong,Singapore,6
-34,Guam,Hong Kong,6
-35,Guam,Japan,16
-36,Japan,Philippines,11
-37,Japan,Solomon Islands,9
-38,India,Japan,12
-39,France,Japan,5
-40,China,France,6
-41,China,India,12
-42,India,Pakistan,13
-43,Israel,Pakistan,6
-44,Israel,South Africa,12
-45,Israel,Libya,6
-46,Germany,Libya,3
-47,India,Papua New Guinea,3
-48,Pakistan,Philippines,5
-49,Cambodia,Philippines,5
-50,Cambodia,Kenya,6
-51,Ghana,Kenya,6
-52,Ghana,Seychelles,5
-53,Estonia,Lithuania,6
-54,Finland,Romania,6
-55,Albania,Romania,5
-56,Albania,Bulgaria,6
-57,Bulgaria,Poland,6
-58,Poland,Romania,6
-59,Hungary,Romania,6
-60,Hungary,Mongolia,5
-61,China,Mongolia,6
-62,China,Cuba,6
-63,Cuba,United States,4
-64,Canada,United States,4
-65,Australia,Canada,6
-66,Cambodia,Cuba,4
-67,Rwanda,South Africa,5
-68,Germany,Norway,6
-69,Greece,Italy,3
-70,Italy,Japan,6
-71,India,Singapore,5
+0,Sarajevo,the British Empire,5
+1,France,the British Empire,6
+2,France,the Russian Empire,6
+3,the German Empire,the Russian Empire,6
+4,Austria,the German Empire,6
+5,Austria,Russia,5
+6,Russia,Tsar,6
+7,Bolsheviks,Tsar,5
+8,Bolsheviks,Germany,6
+9,Germany,Russia,16
+10,Germany,the Ottoman Empire,11
+11,Austria-Hungary,Germany,5
+12,Germany,Kaiser,6
+13,Kaiser,New states,4
+14,New states,Yugoslavia,6
+15,Czechoslovakia,Yugoslavia,12
+16,Czechoslovakia,the Soviet Union,3
+17,Stalin,the Soviet Union,10
+18,Stalin,the Soviet Union's,5
+19,Germany,Italy,17
+20,Germany,the United States,24
+21,Austria,Germany,10
+22,Czechoslovakia,Germany,5
+23,Czechoslovakia,Munich,6
+24,Munich,Spain,3
+25,Spain,the Soviet Union,5
+26,Moscow,the Soviet Union,6
+27,Czechoslovakia,Moscow,6
+28,Britain,Czechoslovakia,6
+29,Britain,France,18
+30,France,Poland,6
+31,Britain,Poland,5
+32,France,Germany,12
+33,Germany,Poland,12
+34,London,Poland,7
+35,Poland,the Soviet Union,21
+36,Germany,the Soviet Union,20
+37,Germany,Stalin,5
+38,Estonia,Stalin,6
+39,Estonia,Latvia,6
+40,Latvia,Lithuania,6
+41,Lithuania,Stalin,6
+42,Finland,Stalin,6
+43,Finland,Germany,11
+44,Netherlands,Poland,6
+45,Luxembourg,Netherlands,6
+46,Belgium,Luxembourg,4
+47,Belgium,Denmark,6
+48,Denmark,Norway,12
+49,Denmark,Sweden,6
+50,Germany,Sweden,6
+51,France,Paris,20
+52,France,Italy,5
+53,Battle,Italy,6
+54,Battle,Britain,12
+55,Britain,Great Britain,11
+56,Britain,Germany,9
+57,Germany,Stuka.[59,5
+58,Britain,Stuka.[59,2
+59,Britain,the Soviet Union,6
+60,Stalin,Yugoslavia,4
+61,Greece,Yugoslavia,12
+62,Albania,Greece,6
+63,Albania,Yugoslavia,12
+64,Greece,Stalin,5
+65,Stalin,Ukraine,6
+66,Belarus,Ukraine,6
+67,Belarus,Leningrad,6
+68,Leningrad,Saint Petersburg,6
+69,Moscow,Saint Petersburg,6
+70,Moscow,Stalin,5
+71,North Africa,Stalin,4
+72,Libya,North Africa,6
+73,Egypt,Libya,11
+74,Libya,Tobruk,4
+75,Egypt,Tobruk,6
+76,Egypt,the Soviet Union,5
+77,Iraq,the Soviet Union,6
+78,Iraq,Persia,6
+79,Persia,Stalingrad,5
+80,Stalingrad,the United States,5
+81,Pearl Harbor,the United States,11
+82,Hawaii,Pearl Harbor,6
+83,Hawaii,Japan,4
+84,Germany,Japan,17
+85,Japan,Russia,12
+86,Italy,the United States,6
+87,North Africa,the United States,4
+88,Germany,North Africa,6
+89,the Soviet Union,the United States,17
+90,Britain,the United States,6
+91,Britain,Stalin,11
+92,Morocco,Stalin,5
+93,Algeria,Morocco,6
+94,Algeria,Sicily,5
+95,Italy,Sicily,6
+96,Italian Social Republic,Italy,6
+97,Italian Social Republic,Rome,5
+98,Britain,Rome,5
+99,America,Britain,6
+100,America,Stalin,5
+101,France,Stalin,3
+102,France,U.S.,5
+103,Omaha Beach,U.S.,6
+104,Germany,Omaha Beach,5
+105,Germany,Paris,3
+106,The Netherlands,Yalta,3
+107,Yalta,the Soviet Union,12
+108,Stalin,Yalta,4
+109,Berlin,France,6
+110,Berlin,Poland,9
+111,Berlin,Germany,27
+112,Berlin,Japan,12
+113,China,Japan,12
+114,China,Manchuria,12
+115,Japan,Manchuria,10
+116,Japan,Shanghai,6
+117,Nanjing,Shanghai,6
+118,Chongqing,Nanjing,6
+119,Changsha,Chongqing,5
+120,Changsha,Guangxi,6
+121,Guangxi,Japan,6
+122,Germany,Pearl Harbor,6
+123,Japan,Pearl Harbor,12
+124,Japan,the United States,6
+125,Japan,Thailand,6
+126,Malaya,Thailand,6
+127,Malaya,Singapore,6
+128,Hong Kong,Singapore,6
+129,Guam,Hong Kong,6
+130,Guam,North Africa,6
+131,Japan,North Africa,5
+132,British Burma,Japan,6
+133,British Burma,New Guinea,6
+134,New Guinea,the Solomon Islands,6
+135,Bali,the Solomon Islands,6
+136,Bali,Philippines,5
+137,Japan,Philippines,6
+138,Japan,Solomon Islands,9
+139,Japan,New Guinea,5
+140,Guadalcanal,New Guinea,6
+141,Guadalcanal,Japan,5
+142,Guam,Japan,11
+143,India,Japan,12
+144,Japan,Tokyo,21
+145,Japan,the Japanese Empire,6
+146,Burma,the Japanese Empire,6
+147,Burma,China,6
+148,China,Okinawa,5
+149,Japan,Okinawa,6
+150,Hiroshima,Japan,4
+151,Hiroshima,Nagasaki,24
+152,Nagasaki,the Soviet Union,5
+153,Potsdam,the Soviet Union,6
+154,Potsdam,Tokyo,5
+155,Wannsee,the Soviet Union,5
+156,Berlin,Wannsee,6
+157,Nazi Germany,the Soviet Union,1
+158,Nazi Germany,the United States,6
+159,the United Kingdom,the United States,6
+160,Los Alamos,the United Kingdom,5
+161,Los Alamos,New Mexico,6
+162,Germany,New Mexico,5
+163,Germany,Hiroshima,5
+164,Nagasaki,the United States,3
+165,The United States,the Soviet Union,9
+166,Japan,The United States,11
+167,Japan,The Soviet Union,5
+168,The Soviet Union,the United States,2
+169,Russia,the Soviet Union,12
+170,Russia,the United Kingdom,6
+171,France,the United Kingdom,6
+172,China,France,6
+173,China,India,12
+174,India,Pakistan,12
+175,Israel,Pakistan,6
+176,Israel,North Korea.[159],6
+177,North Korea.[159],South Africa,6
+178,Israel,South Africa,6
+179,Israel,Libya,6
+180,Libya,The United States,4
+181,Pearl Harbor,The United States,8
+182,Pearl Harbor,U.S.,6
+183,The United States,U.S.,12
+184,Great Britain,the United States,6
+185,France,Great Britain,6
+186,France,the Soviet Union,6
+187,Berlin,the Soviet Union,5
+188,Japan,U.S.,12
+189,Japan,West Germany,6
+190,San Francisco.[172,West Germany,2
+191,Papua New Guinea,San Francisco.[172,4
+192,India,Papua New Guinea,3
+193,Pakistan,the People's Republic of Bangladesh,6
+194,The United States,the People's Republic of Bangladesh,5
+195,Philippines,The United States,6
+196,Indochina,Philippines,5
+197,Indochina,Laos,6
+198,Cambodia,Laos,6
+199,Cambodia,Kenya,6
+200,Ghana,Kenya,6
+201,British Empire,Ghana,5
+202,British Empire,Seychelles,6
+203,Berlin,Warsaw,6
+204,Berlin,Prague,6
+205,Prague,Vienna,6
+206,Budapest,Vienna,6
+207,Belgrade,Budapest,6
+208,Belgrade,Sofia,6
+209,Moscow,Sofia,6
+210,Estonia,the Soviet Union,5
+211,Estonia,Lithuania,6
+212,Finland,Lithuania,6
+213,Finland,Romania,6
+214,Romania,Yugoslavia,5
+215,Albania,Bulgaria,6
+216,Bulgaria,Poland,6
+217,Poland,Romania,6
+218,Czechoslovakia,Romania,6
+219,Czechoslovakia,Hungary,6
+220,East Germany,Hungary,6
+221,East Germany,Mongolia,5
+222,China,Mongolia,6
+223,China,North Korea,6
+224,Cuba,North Korea,8
+225,North Korea,United States,6
+226,South Korea,United States,6
+227,North Korea's,South Korea,10
+228,South Korea,the United States,6
+229,Canada,the United States,6
+230,Australia,Canada,6
+231,Australia,Great Britain,6
+232,Armistice,Great Britain,5
+233,Armistice,Koreas,6
+234,Koreas,Vietnam,5
+235,The United States,Vietnam,4
+236,Cambodia,U.S.,10
+237,Saigon,U.S.,5
+238,Saigon,Vietnam,6
+239,Cuba,Vietnam,5
+240,Cuba,the United States,12
+241,Cuba,U.S.,5
+242,U.S.,the Soviet Union,6
+243,United States,the Soviet Union,6
+244,U.S.,United States,6
+245,Gemini,U.S.,11
+246,Russia,the United States,6
+247,East Berlin,Japan,5
+248,East Berlin,the Soviet Union,4
+249,the People's Republic of China.[229] Its,the Soviet Union,5
+250,U.S.,the People's Republic of China.[229] Its,6
+251,Russia,U.S.,4
+252,Rwanda,South Africa,5
+253,Oklahoma City,Rwanda,5
+254,North Korea,Oklahoma City,3
+255,North Korea,West Nile,5
+256,Germany,Norway,6
+257,Neville,Wylie,6
+258,France,Neville,2
+259,Greece,Italy,3
+260,Battle,Greece,1
+261,Britain,Grant,2
+262,Grant,Rebecca,6
+263,Germany,Rebecca,5
+264,Berlin,Britain,9
+265,Germany,New York,5
+266,Germany,Stalingrad,9
+267,New Orleans,North Africa,2
+268,Italy,New Orleans,2
+269,Catherwood,New York,4
+270,Italy,Japan,6
+271,Berlin,Pearl Harbor,3
+272,Goldstein,New York,3
+273,Israel,New York,3
+274,Antonia,Blumberg,6
+275,Germany,The Soviet Union,4
+276,Henderson,India,2
+277,Henderson,Pakistan,5
+278,Romania,Russia,6
+279,London,Stalin,5
+280,London,New York,6
+281,New York,Stephen,6
+282,New York,Vietnam,1
+283,Michaels,Vietnam,5
+284,Colin,Hall,6
+285,Berlin,Hall,4
+286,Becky,Ferreira,6
+287,Becky,Clusterfuck,5
+288,America,Clusterfuck,1
+289,Egorov,the Soviet Union,5
+290,THE SOVIET UNION,The Soviet State,6
+291,Alfredo,Kellaway,1
+292,Alfredo,Lean,1
+293,India,Singapore,5
